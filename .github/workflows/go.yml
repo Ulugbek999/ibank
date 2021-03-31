@@ -20,7 +20,7 @@ jobs:
         id: go
 
       - name: Set up GOPRIVATE
-        run: go env -w GOPRIVATE=github.com/Ulugbek/bank5
+        run: go env -w GOPRIVATE=github.com/Ulugbek/ibank
 
       - name: Check out code into the Go module directory
         uses: actions/checkout@v2
